@@ -1,0 +1,89 @@
+/* Styles go here */
+.App {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+  }
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .thtd{
+  padding: 10px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #00334d;
+}
+a {
+    color: #00334d;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+}
+ .btn-primary{
+   color:white;
+   background-color: #00334d;
+   border-color: #00334d;
+ }
+ .btn-primary:hover{
+   color:white;
+   background-color: #0077b3;
+   border-color: #0077b3;
+ }
+
+ .dropdown-item.active, .dropdown-item:active {
+     color: #fff;
+     text-decoration: none;
+     background-color: #00334d;
+ }
+ .nav-pills .nav-link {
+     border-radius: 0%;
+ }
+
+ p.aboutproject {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
